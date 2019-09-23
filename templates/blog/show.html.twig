@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} MyBlog - {{ post.title }} {% endblock %}
+{% block body %}
+    <p>ID : {{ id }}</p>
+    <h3>{{ post.title }} - {{ 8 | str_rand }}</h3>
+    <h5>{{ post.text }}</h5>
+    <p> {{ 500 | price }}</p>
+    <p> {{ message }} - {{ locale }}</p>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Page not found - Error 404 {% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h1>Oops! An Error Occurred</h1>
+        <p> {{ status_text }} - {{ status_code }}</p>
+    </div>
+{% endblock %}
