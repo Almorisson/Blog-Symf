@@ -1,2 +1,2 @@
 # Blog-Symf
-A blog site made in Symfony
+A blog website made in Symfony
